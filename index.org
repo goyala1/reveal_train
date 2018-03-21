@@ -2,7 +2,7 @@
 #+OPTIONS: reveal_center:t reveal_progress:t reveal_history:t reveal_control:t
 #+OPTIONS: reveal_mathjax:t reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
 #+OPTIONS: reveal_width:1200 reveal_height:800
-#+OPTIONS: reveal_title_slide:nil
+#+OPTIONS: reveal_title_slide:nil toc:nil
 #+REVEAL_MARGIN: 0.2
 #+REVEAL_MIN_SCALE: 0.5
 #+REVEAL_MAX_SCALE: 2.5
@@ -18,13 +18,13 @@
   examination)
 - Low Theta: 1-4 Hz, High Theta: 4-8 Hz, Alpha: 8-12 Hz
 * Behavior unrelated effects
-  #+ATTR_HTML: :width 50% :height 50%
-  [[file:figs/everything.png]]
 - When examining peaks for behavior unrelated effects, there are 34
   left posterior peaks, 37 left anterior peaks, and 66 right anterior
   peaks. 
 - Left MTL tends to lean towards alpha peaks, especially in posterior
 - Right MTL tends to lean towards high theta peaks
+** Histograms
+     [[file:figs/everything.png]]
 ** Example: Left Alpha Peak
    #+ATTR_HTML: :width 75% :height 75%
    [[file:figs/everythingLeft.png]]
@@ -32,8 +32,6 @@
   #+ATTR_HTML: :width 75% :height 75%
   [[file:figs/everythingRight.png]]
 * Movement related effects
-#+ATTR_HTML: :width 50% :height 50%
-  [[file:figs/movement.png]]
 - Analyzed movement power > stationary power
 - 34 left posterior peaks, of which 15 are significant. 42 left
   anterior peaks, of which 30 are significant
@@ -41,6 +39,8 @@
 - Left posterior: exclusively significant at alpha. Left anterior:
   broadband significance
 - Right anterior: Broadband, but concentrated at high theta
+** Histograms
+  [[file:figs/movement.png]]
 ** Example: Left Alpha Peak
    #+ATTR_HTML: :width 75% :height 75% 
    [[file:figs/moveLeft.png]]
@@ -48,26 +48,26 @@
    #+ATTR_HTML: :width 75% :height 75% 
    [[file:figs/moveRight.png]]
 * Memory related effects
-  #+ATTR_HTML: :width 50% :height 50%
-  [[file:figs/memory.png]]
 - Analyzed good memory power > bad memory power
 - 32 left posterior peaks, of which 8 are significant. 39 left
   anterior peaks, of which 8 are significant
 - 75 right anterior peaks, of which 51 are significant
 - Left essentially not a factor in memory.
 - Right: broadband, but concentrated at high theta
+** Histograms
+     [[file:figs/memory.png]]
 ** Example: Right High Theta Peak
    #+ATTR_HTML: :width 75% :height 75% 
    [[file:figs/memRight.png]]
 * Speed related effects
-  #+ATTR_HTML: :width 50% :height 50%
-  [[file:figs/speed.png]]
 - Analyzed fast power > slow power
 - 37 left posterior peaks, of which 17 are significant. 38 left
   anterior peaks, of which 15 are significant
 - 75 right peaks, of which 40 are significant
 - Left is primarily significant at alpha in both areas
 - Right is again broadband, but concentrated around high theta
+** Histogram
+  [[file:figs/speed.png]]
 ** Example: Left Alpha Peak
    #+ATTR_HTML: :width 75% :height 75% 
    [[file:figs/speedLeft1.png]]
