@@ -18,7 +18,7 @@
   examination)
 - Low Theta: 1-4 Hz, High Theta: 4-8 Hz, Alpha: 8-12 Hz
 * Behavior unrelated effects
-  [[[[file:figs/everything.png]]]]
+  [[file:figs/everything.png]]
 - When examining peaks for behavior unrelated effects, there are 34
   left posterior peaks, 37 left anterior peaks, and 66 right anterior
   peaks. 
@@ -26,13 +26,12 @@
 - Right MTL tends to lean towards high theta peaks
 ** Example: Left Alpha Peak
    #+ATTR_HTML: :width 75% :height 75%
-    [[/Users/abhigoyal/Documents/jacobsLab/papers/trainTheta/Data/powerSpec/everything/MTL/Left/R1030J/0/R1030J_e0elec14.png]]
+   [[file:figs/everythingLeft.png]]
 ** Example: Right High Theta Peak 
   #+ATTR_HTML: :width 75% :height 75%
-   [[/Users/abhigoyal/Documents/jacobsLab/papers/trainTheta/Data/powerSpec/everything/MTL/Right/R1019J/1/R1019J_e1elec47.png]]
-
+  [[file:figs/everythingRight.png]]
 * Movement related effects
-[[/Users/abhigoyal/Documents/jacobsLab/papers/trainTheta/Data/powerSpec/figs/PNG/movement.png]]
+  [[file:figs/movement.png]]
 - Analyzed movement power > stationary power
 - 34 left posterior peaks, of which 15 are significant. 42 left
   anterior peaks, of which 30 are significant
@@ -42,12 +41,12 @@
 - Right anterior: Broadband, but concentrated at high theta
 ** Example: Left Alpha Peak
    #+ATTR_HTML: :width 75% :height 75% 
-   [[/Users/abhigoyal/Documents/jacobsLab/papers/trainTheta/Data/powerSpec/Movement/MTL/Left/R1030J/1/R1030J_e1elec12.png]]
+   [[file:figs/moveLeft.png]]
 ** Example: Right High Theta Peak
    #+ATTR_HTML: :width 75% :height 75% 
-   [[/Users/abhigoyal/Documents/jacobsLab/papers/trainTheta/Data/powerSpec/Movement/MTL/Right/R1019J/1/R1019J_e1elec35.png]]
+   [[file:figs/moveRight.png]]
 * Memory related effects
-[[/Users/abhigoyal/Documents/jacobsLab/papers/trainTheta/Data/powerSpec/figs/PNG/memory.png]]
+  [[file:figs/memory.png]]
 - Analyzed good memory power > bad memory power
 - 32 left posterior peaks, of which 8 are significant. 39 left
   anterior peaks, of which 8 are significant
@@ -56,9 +55,9 @@
 - Right: broadband, but concentrated at high theta
 ** Example: Right High Theta Peak
    #+ATTR_HTML: :width 75% :height 75% 
-   [[/Users/abhigoyal/Documents/jacobsLab/papers/trainTheta/Data/powerSpec/Movement/MTL/Right/R1019J/1/R1019J_e1elec36.png]]
+   [[file:figs/memRight.png]]
 * Speed related effects
-[[/Users/abhigoyal/Documents/jacobsLab/papers/trainTheta/Data/powerSpec/figs/PNG/speed.png]]
+  [[file:figs/speed.png]]
 - Analyzed fast power > slow power
 - 37 left posterior peaks, of which 17 are significant. 38 left
   anterior peaks, of which 15 are significant
@@ -67,13 +66,13 @@
 - Right is again broadband, but concentrated around high theta
 ** Example: Left Alpha Peak
    #+ATTR_HTML: :width 75% :height 75% 
-   [[/Users/abhigoyal/Documents/jacobsLab/papers/trainTheta/Data/powerSpec/Speed/MTL/Left/R1030J/0/R1030J_e0elec61.png]]
+   [[file:figs/speedLeft1.png]]
 ** Example: Left Alpha Peak 2
    #+ATTR_HTML: :width 75% :height 75% 
-   [[/Users/abhigoyal/Documents/jacobsLab/papers/trainTheta/Data/powerSpec/Speed/MTL/Left/R1030J/3/R1030J_e3elec58.png]]
+   [[file:figs/speedLeft2.png]]
 ** Example: Right High Theta Peak
    #+ATTR_HTML: :width 75% :height 75% 
-   [[/Users/abhigoyal/Documents/jacobsLab/papers/trainTheta/Data/powerSpec/Speed/MTL/Right/R1019J/3/R1019J_e3elec52.png]]
+   [[file:figs/speedRight.png]]
 * Conclusions
 - Overall, left has high activity in alpha, especially in posterior
   MTL
