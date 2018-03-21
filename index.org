@@ -18,7 +18,7 @@
   examination)
 - Low Theta: 1-4 Hz, High Theta: 4-8 Hz, Alpha: 8-12 Hz
 * Behavior unrelated effects
-  [[figs/everything.png]]
+  [[[[file:figs/everything.png]]]]
 - When examining peaks for behavior unrelated effects, there are 34
   left posterior peaks, 37 left anterior peaks, and 66 right anterior
   peaks. 
