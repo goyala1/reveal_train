@@ -7,20 +7,34 @@
 #+REVEAL_MIN_SCALE: 0.5
 #+REVEAL_MAX_SCALE: 2.5
 #+REVEAL_TRANS: default
-#+REVEAL_THEME: night
+#+REVEAL_THEME: beige
 #+REVEAL_EXTRA_CSS: ./presentation.css
 
+* Theta Rhythm
+  - In rodents, theta has been linked to spatial navigation/memory
+    ("slow theta") and movement speed ("fast" theta) 
+  - In humans, debate exists concerning the relevance and localization
+    of the theta rhythm. Slower than rodents? Where in the
+    hippocampus? 
+  - Recent work (Bohbot et al., 2017) has implicated high theta in
+    human navigation
+  - Rodent work (Royer et al., 2010) found a decrease in theta moving from dorsal to
+    ventral hippocampus (analogous to moving from posterior to
+    anterior in humans), but the theta frequency was not defined
+  - Other work in humans (Duarte et al., 2016) found low theta in both anterior
+    and posterior, with high theta only in anterior in a spatial
+    navigation task requiring memory (but only 1 subject)
 * MTL Related effects in train task
+- Train task allows us to disentangle movement from memory to parse
+  out the theta rhythms more precisely
 - Examined behavior unrelated and behavior related effects on left
-  vs. right MTL
+  vs. right MTL and anterior vs. posterior for left MTL
 - Approximately 65% of left MTL electrodes were anterior
-- All right MTL electrodes were anterior (verified by manual
-  examination)
+- All right MTL electrodes were anterior 
 - Low Theta: 1-4 Hz, High Theta: 4-8 Hz, Alpha: 8-12 Hz
 * Behavior unrelated effects
 - When examining peaks for behavior unrelated effects, there are 34
-  left posterior peaks, 37 left anterior peaks, and 66 right anterior
-  peaks. 
+  left posterior peaks, 37 left anterior peaks, and 66 right peaks. 
 - Left MTL tends to lean towards alpha peaks, especially in posterior
 - Right MTL tends to lean towards high theta peaks
 ** Histograms
@@ -33,12 +47,8 @@
   [[file:figs/everythingRight.png]]
 * Movement related effects
 - Analyzed movement power > stationary power
-- 34 left posterior peaks, of which 15 are significant. 42 left
-  anterior peaks, of which 30 are significant
-- 77 right anterior peaks, of which 47 are significant
-- Left posterior: exclusively significant at alpha. Left anterior:
-  broadband significance
-- Right anterior: Broadband, but concentrated at high theta
+- Significance - LP (15/34), LA (30/42), R (47/77)
+- Frequencies - LP (alpha), LA (broadband), R (high theta)
 ** Histograms
   [[file:figs/movement.png]]
 ** Example: Left Alpha Peak
@@ -49,11 +59,8 @@
    [[file:figs/moveRight.png]]
 * Memory related effects
 - Analyzed good memory power > bad memory power
-- 32 left posterior peaks, of which 8 are significant. 39 left
-  anterior peaks, of which 8 are significant
-- 75 right anterior peaks, of which 51 are significant
-- Left essentially not a factor in memory.
-- Right: broadband, but concentrated at high theta
+- Significance - LP (8/32), LA (8/39), R (51/75)
+- Frequencies - R (high theta)
 ** Histograms
      [[file:figs/memory.png]]
 ** Example: Right High Theta Peak
@@ -61,11 +68,8 @@
    [[file:figs/memRight.png]]
 * Speed related effects
 - Analyzed fast power > slow power
-- 37 left posterior peaks, of which 17 are significant. 38 left
-  anterior peaks, of which 15 are significant
-- 75 right peaks, of which 40 are significant
-- Left is primarily significant at alpha in both areas
-- Right is again broadband, but concentrated around high theta
+- Significance - LP (17/37), LA (15/38), R (40/75)
+- Frequencies - LP (alpha), LA (alpha), R (high theta)
 ** Histogram
   [[file:figs/speed.png]]
 ** Example: Left Alpha Peak
@@ -81,10 +85,14 @@
 - Overall, left has high activity in alpha, especially in posterior
   MTL
 - Right usually sees broadband activation with concentration around
-  high theta. Low theta and alpha activation is usually approximately
+  high theta. Low theta and alpha activation approximately
   equal
 - Movement and speed seem to be driven by both hemispheres, but at
   their respective frequencies
 - Memory is primarily driven by right MTL
-- Handedness of subjects was not taken into account. This perhaps
-  might alter results. 
+* Thoughts
+- Peak picking too strict? 
+- Hemispheric dominance of subjects? 
+- Is the speed related analysis a good one to keep? 
+- Encoding vs. retrieval of memory? 
+- What to do next? 
